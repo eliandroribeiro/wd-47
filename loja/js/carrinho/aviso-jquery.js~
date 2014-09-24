@@ -1,5 +1,5 @@
-(function($) {
-	'use strict';
+(function($) { //IIFE
+'use strict';
 
 	var textoEsconde = 'Esconder';
 	var botao = $('<button>').attr('id', 'botaoaviso').text(textoEsconde);

@@ -1,5 +1,5 @@
 (function($) {
-	'use strict';
+'use strict';
 
 	$('#carrinho li form a').click(function(event) {
 		$(this).closest('li').remove();

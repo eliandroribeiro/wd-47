@@ -1,4 +1,4 @@
-(function($) {
+(function($) { // IIFE
 'use strict';
 
 	$('#carrinho li form a').click(function(event) {

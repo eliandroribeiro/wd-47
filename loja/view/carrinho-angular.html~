@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
   <head>
     <title>Mirror Fashion</title>
     <meta charset="utf-8" />
@@ -98,7 +98,7 @@
 
       </ul>
       
-      <div id="recomendacoes" class="container">
+      <div id="recomendacoes" class="container" ng-controller="RecomendacaoController">
         
         <h3>Veja o que outras pessoas já compraram na Mirror Fashion</h3>
         <ul></ul>
@@ -127,5 +127,7 @@
 
       </div>
     </footer>
+    <script src="../js/lib/angular.js"></script>
+    <script src="../js/controller/RecomendacaoController.js"></script>
   </body>
 </html>

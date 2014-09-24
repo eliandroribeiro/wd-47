@@ -1,4 +1,4 @@
-(function($) {
+(function($) { // IIFE
 'use strict';
 
 	var textoEsconde = 'Esconder';
