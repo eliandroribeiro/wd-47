@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mirror Fashion</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/estilos.css" rel="stylesheet"/>
+    <link href="css/pesquisa.css" rel="stylesheet" media="screen"/>
+  </head>
+  <body>
+
+    <header class="container">
+      <h1>Mirror Fashion</h1>
+
+      <p class="sacola" data-total = "0">
+        Nenhum item na sacola de compra
+      </p>
+
+      <nav class="menu-setores">
+        <ul>
+          <li><a href="#">Sua Conta</a></li>
+          <li><a href="#">Lista de Desejos</a></li>
+          <li><a href="#">Cartão Fidelidade</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="#">Ajuda</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="principal" class="container">
+
+      <div class="filtro">
+        <input type="text" placeholder="Nome, preço ou código"/>
+      </div>
+
+      <ul id="carrinho">
+
+        <li id="item1" class="clearfix">  
+           <div class="painel-imagem" title>
+             <img src="img/produto-1.jpg" />        
+           </div>
+           <div class="item-info">
+            <h2>FUARLAN MISTERY CARDIGAN</h2>
+            <p>CÓDIGO: <span>#00AMT01</span></p>
+            <p>Valor unitário: <span id="item-valor-unit">R$ 120,00</span></p>
+            <a href="#" class="adicionar">Adicionar</a>
+          </div>
+        </li>
+
+        <li id="item2" class="clearfix">  
+           <div class="painel-imagem" title>
+             <img src="img/produto-2.jpg" />        
+           </div>
+           <div class="item-info">
+            <h2>ASOS MARITAL COLLAR CARDIGAN</h2>
+            <p>CÓDIGO: <span>#00AMT02</span></p>
+            <p>Valor unitário: <span id="item-valor-unit">R$ 74,00</span></p>
+            <a href="#" class="adicionar">Adicionar</a>
+          </div>
+        </li>
+
+        <li id="item3" class="clearfix">  
+           <div class="painel-imagem" title>
+             <img src="img/produto-3.jpg" />        
+           </div>
+           <div class="item-info">
+            <h2>ASOS MERINO SHAWL COLLAR CARDIGAN</h2>
+            <p>CÓDIGO: <span>#00AMT03</span></p>
+            <p>Valor unitário: <span id="item-valor-unit">R$ 109,00</span></p>
+            <a href="#" class="adicionar">Adicionar</a>
+          </div>
+        </li>
+
+        <li id="item4" class="clearfix">  
+           <div class="painel-imagem" title>
+             <img src="img/produto-4.jpg" />        
+           </div>
+           <div class="item-info">
+            <h2>MESSY ROCKET</h2>
+            <p>CÓDIGO: <span>#00AMT04</span></p>
+            <p>Valor unitário: <span id="item-valor-unit">R$ 200,00</span></p>
+            <a href="#" class="adicionar">Adicionar</a>
+          </div>
+        </li>
+
+        <li id="item5" class="clearfix">  
+           <div class="painel-imagem" title>
+             <img src="img/produto-5.jpg" />        
+           </div>
+           <div class="item-info">
+            <h2>URBAN MISTERY</h2>
+            <p>CÓDIGO: <span>#00AMT05</span></p>
+            <p>Valor unitário: <span id="item-valor-unit">R$ 130,00</span></p>
+            <a href="#" class="adicionar">Adicionar</a>
+          </div>
+        </li>
+
+        <li id="item6" class="clearfix">
+          <div class="painel-imagem" title>
+             <img src="img/produto-6.jpg" />
+           </div>
+           <div class="item-info">
+            <h2>GOLDEN VALVE</h2>
+            <p>CÓDIGO: <span>#00AMT06</span></p>
+            <p>Valor unitário: <span id="item-valor-unit">R$ 109,00</span></p>
+            <a href="#" class="adicionar">Adicionar</a>
+          </div>
+        </li>
+
+      </ul>
+    </div><!-- fim do conteudo principal -->
+     <footer>
+      <div class="container">
+        <h1>Mirror Fashion</h1>
+
+        <ul class="social">
+          <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+          <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+          <li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+        </ul>
+
+      </div>
+    </footer>
+  </body>
+</html>

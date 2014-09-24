@@ -1,0 +1,28 @@
+var formatadorMoeda = (function() {
+	'use strict';
+
+	var simbolo = 'R$ ';
+
+	return {
+		numberParaReal : function(numero) {
+			return simbolo + numero.toFixed(2).replace(".", ",");
+		},
+
+		realParaNumber : function(texto) {
+			return parseFloat(texto.replace(simbolo, "").replace(",", "."));
+		}
+		
+		,comMilhar : function(numero) {
+			var casasDecimal = 2;
+			var casasMilhar = 3;
+			var n = numero.toFixed(casasDecimal);
+			var posicaoDecimal = n.indexOf('.') || n.length;
+			var f = '';
+			// 123456.89
+			for (var i = n.indexOf('.') - casasMilhar; i < n.length; i += casasMilhar) {
+				
+			}
+		}
+	};
+})();
+

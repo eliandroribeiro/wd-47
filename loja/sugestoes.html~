@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mirror Fashion</title>
+    <meta charset="utf-8" />
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/estilos.css" rel="stylesheet"/>
+    <link href="css/sugestoes.css" rel="stylesheet"/>
+    <link href="css/jquery-ui.css" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <header class="container">
+      <h1>Mirror Fashion</h1>
+
+      <p class="sacola">
+        Há itens em sua sacola de compras
+      </p>
+
+      <nav class="menu-setores">
+        <ul>
+          <li><a href="#">Sua Conta</a></li>
+          <li><a href="#">Lista de Desejos</a></li>
+          <li><a href="#">Cartão Fidelidade</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="#">Ajuda</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="principal" class="container">
+      <h1>SUGESTÕES DE PEÇAS</h1>
+      <h2>Sua sugestão é muito importante para nós!</h2>
+
+      <ul class="sugestoes">
+        <li data-votos="2">
+          <span class="sugestao">Regata com lantejoulas</span>
+          <span class="votos">2 votos</span>
+        </li>
+        <li data-votos="1">
+          <span class="sugestao">Vestido tomara-que-caia</span>
+          <span class="votos">1 voto</span>
+        </li>
+        <li data-votos="3">
+          <span class="sugestao">Calça Lycra</span>
+          <span class="votos">3 votos</span>
+        </li>
+      </ul>
+
+      <div class="nova-sugestao">
+        <label>Nova Sugestão</label>
+        <input type="text"/>
+        <input type="button" value='Incluir' disabled="disabled" />
+      </div>
+    </div><!-- fim do conteudo principal -->
+
+     <footer>
+      <div class="container">
+        <h1>Mirror Fashion</h1>
+
+        <ul class="social">
+          <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+          <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+          <li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+        </ul>
+
+      </div>
+    </footer>
+	<script src='js/lib/jquery.js'></script>
+	<script src='js/lib/jquery-ui.js'></script>
+	<script src='js/sugestoes/sugestoes.js'></script>
+  </body>
+</html>
