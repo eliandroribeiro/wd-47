@@ -4,9 +4,11 @@
     <title>Mirror Fashion</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
+    <!-- build:css css/index.min.css -->
     <link href="css/reset.css" rel="stylesheet"/>
     <link href="css/estilos.css" rel="stylesheet"/>
     <link href="css/pesquisa.css" rel="stylesheet" media="screen"/>
+    <!-- endbuild -->
   </head>
   <body>
 
@@ -122,7 +124,13 @@
 
       </div>
     </footer>
-    <script src='js/lib/jquery.js'></script>
-    <script src='js/pesquisa/filtro.js'></script>
+    
+    <!-- build:js js/lib/pesquisa-libs.min.js -->
+    <script src="js/lib/jquery.js"></script>
+    <!-- endbuild -->
+    
+    <!-- build:js js/pesquisa/pesquisa.min.js -->
+    <script src="js/pesquisa/filtro.js"></script>
+    <!-- endbuild -->
   </body>
 </html>
